@@ -1,0 +1,3 @@
+D:/cprogram/AT32_test_code/cmake-build-debug/CMakeFiles/rtthread.elf.dir
+D:/cprogram/AT32_test_code/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/cprogram/AT32_test_code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,761 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "rtthread.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_EXECUTABLE",
+			"ADD_DEFINITIONS",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -mcpu=cortex-m4 -mthumb -O2 -g -g -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "AT32F435ZMT7"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_CCONFIG_H"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "RT_USING_LIBC"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "RT_USING_NEWLIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SOC_SERIES_AT32F435"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_POSIX_C_SOURCE=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__RTTHREAD__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/drivers"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/drivers/f435_437/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/drivers/common/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/drivers/usbotg_library/inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/libraries/f435_437/cmsis/cm4/core_support"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/libraries/f435_437/cmsis/cm4/device_support"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/libraries/f435_437/drivers/inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/components/libc/compilers/common/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/components/libc/compilers/newlib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/libcpu/arm/common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/libcpu/arm/cortex-m4"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/components/drivers/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/components/finsh"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/components/libc/posix/io/poll"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/components/libc/posix/io/stdio"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/components/libc/posix/ipc"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "AT32F435ZMT7"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "HAVE_CCONFIG_H"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "RT_USING_LIBC"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "RT_USING_NEWLIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SOC_SERIES_AT32F435"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_POSIX_C_SOURCE=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "__RTTHREAD__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/drivers"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/drivers/f435_437/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/drivers/common/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/drivers/usbotg_library/inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/libraries/f435_437/cmsis/cm4/core_support"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/libraries/f435_437/cmsis/cm4/device_support"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/libraries/f435_437/drivers/inc"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/components/libc/compilers/common/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/components/libc/compilers/newlib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/libcpu/arm/common"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/libcpu/arm/cortex-m4"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/components/drivers/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/components/finsh"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/components/libc/posix/io/poll"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/components/libc/posix/io/stdio"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/cprogram/AT32_test_code/rt-thread/components/libc/posix/ipc"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				10,
+				42
+			]
+		}
+	],
+	"id" : "rtthread.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-mcpu=cortex-m4 -mthumb -O2 -g -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-T D:/cprogram/AT32_test_code/linkscripts/AT32F435ZM/link.lds",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "-lc",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 1,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "rtthread.elf",
+	"nameOnDisk" : "rtthread.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				10,
+				42
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/libc/compilers/common/cctype.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/libc/compilers/common/cstdio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/libc/compilers/common/cstdlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/libc/compilers/common/cstring.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/libc/compilers/common/ctime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/libc/compilers/common/cwchar.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/libc/compilers/newlib/syscalls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/libcpu/arm/common/backtrace.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/libcpu/arm/common/div0.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/libcpu/arm/common/showmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "rt-thread/libcpu/arm/cortex-m4/context_gcc.S",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/libcpu/arm/cortex-m4/cpuport.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/drivers/ipc/completion.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/drivers/ipc/dataqueue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/drivers/ipc/pipe.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/drivers/ipc/ringblk_buf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/drivers/ipc/ringbuffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/drivers/ipc/waitqueue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/drivers/ipc/workqueue.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/drivers/misc/pin.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/drivers/serial/serial.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/finsh/shell.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/finsh/msh.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/finsh/msh_parse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/components/finsh/cmd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/src/clock.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/src/components.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/src/device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/src/idle.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/src/ipc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/src/irq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/src/kservice.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/src/mem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/src/mempool.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/src/object.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/src/scheduler.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/src/thread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rt-thread/src/timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "applications/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "drivers/board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "drivers/f435_437/drv_clk.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "drivers/f435_437/at32_msp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "libraries/f435_437/cmsis/cm4/device_support/startup/gcc/startup_at32f435_437.s",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/f435_437/drivers/src/at32f435_437_crm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/f435_437/drivers/src/at32f435_437_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/f435_437/drivers/src/at32f435_437_misc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/f435_437/drivers/src/at32f435_437_exint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/f435_437/drivers/src/at32f435_437_scfg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/f435_437/drivers/src/at32f435_437_usart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "libraries/f435_437/cmsis/cm4/device_support/system_at32f435_437.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "drivers/common/drv_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "drivers/common/drv_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "drivers/common/drv_usart.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
